@@ -147,11 +147,13 @@ Config/
 ---
 ## ✅ lab Instructions
 Detailed instruction on executing the scripts can be found 
-[HERE](lab_instructions/Readme.md) 
+[HERE](lab_instructions/README.md#overview-of-execution-order) 
 
 ---
 ## ⚠️ Grading 
+
 Detailed instruction on Grading instructions can be found [HERE](config/readme.md)
+
 ---
 
 ## ⚠️ Troubleshooting & FAQ
