@@ -37,7 +37,7 @@ Observability in Snowflake comes in two main categories:
 
 ### Script to Execute
 
-**File:** `code/01_setup/enable_telemetry.sql`
+**File:** [ENABLE_TELEMETRY.SQL](/code/01_setup/enable_telemetry.sql)
 
 ### What This Script Does
 
@@ -97,7 +97,7 @@ Simple DML/DQL SQL commands executed directly in a worksheet do not generate tra
 
 ### Script to Execute
 
-**File:** `code/02_traces/create_trace.sql`
+**File:** [EXPLORE TRACES.SQL](/code/02_traces/create_trace.sql)
 
 ### What This Script Does
 
@@ -155,7 +155,7 @@ Learn how to generate and analyze logs for debugging issues and monitoring appli
 
 ### Script to Execute
 
-**File:** `code/03_logs/create_log.sql`
+**File:** [ANALYZE LOGS.SQL](/code/03_logs/create_log.sql)
 
 ### What This Script Does
 
@@ -209,7 +209,7 @@ Explore Query History to monitor query performance, identify slow queries, and o
 
 ### Script to Execute
 
-**File:** `code/04_query_history/sample_queries.sql`
+**File:** [QUERY HISTORY.SQL](/code/04_query_history/sample_queries.sql)
 
 ### What This Script Does
 
@@ -304,8 +304,7 @@ Monitor data loading activities and track the performance of COPY INTO operation
 
 ### Script to Execute
 
-**File:** `code/05_copy_history/setup_data_loading.sql`
-
+**File:** [COPY HISTORY.SQL](/code/05_copy_history/setup_data_loading.sql)
 ### What This Script Does
 
 This script:
