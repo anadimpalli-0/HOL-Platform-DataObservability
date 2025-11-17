@@ -192,8 +192,7 @@ For internal support and questions:
 
 After completing the lab, it's important to clean up resources to avoid unnecessary costs.
 
-**Script to Execute:** `code/99_cleanup/cleanup.sql`
-
+**Script to Execute:** [CLEANUP.SQL](/code/99_cleanup/cleanup.sql)
 ### What the Cleanup Script Does
 
 The cleanup script removes all objects created during this lab:
