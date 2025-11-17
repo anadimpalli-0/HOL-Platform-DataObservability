@@ -26,11 +26,11 @@ This lab will guide you through the complete observability stack in Snowflake, h
 
 **Objectives**
 
--Enable and configure telemetry collection in Snowflake to capture logs, metrics, and traces for account-level observability.
--Differentiate between System Views and Telemetry Data, understanding how each supports monitoring, troubleshooting, and analytics.
--Use Snowsight’s monitoring tools—such as Trace Explorer, Query History, and Logs—to diagnose performance issues and optimize workloads.
--Monitor key data operations including ingestion (Copy History), automation (Task History), and materialization (Dynamic Tables) to ensure reliability and efficiency.
--Apply AI and ML observability techniques to evaluate model performance, trace inference workflows, and monitor Cortex AI workloads for accuracy and cost efficiency.
+- Enable and configure telemetry collection in Snowflake to capture logs, metrics, and traces for account-level observability.
+- Differentiate between System Views and Telemetry Data, understanding how each supports monitoring, troubleshooting, and analytics.
+- Use Snowsight’s monitoring tools—such as Trace Explorer, Query History, and Logs—to diagnose performance issues and optimize workloads.
+- Monitor key data operations including ingestion (Copy History), automation (Task History), and materialization (Dynamic Tables) to ensure reliability and efficiency.
+- Apply AI and ML observability techniques to evaluate model performance, trace inference workflows, and monitor Cortex AI workloads for accuracy and cost efficiency.
 
 ### ⏲️ Estimated Lab Timeline
 
@@ -38,6 +38,7 @@ This lab will guide you through the complete observability stack in Snowflake, h
 - **Phase 2 (Traces & logs exploration):** ~25 min
 - **Phase 3 (Query, copy, task history):** ~25 min
 - **Phase 4 (Dynamic tables & AI observability):** ~10 min
+- **Grading:**  ~5 min
 - **Phase 5 (Cleanup):** ~5 min
 
 **Total estimated time:** ~60-90 minutes
@@ -46,11 +47,11 @@ This lab will guide you through the complete observability stack in Snowflake, h
 
 ## 📖 Table of Contents
 
-- [Why this Matters](#why-this-matters)
-- [Suggested Discovery Questions](#suggested-discovery-questions)
-- [Repository Structure](#repository-structure)
-- [Prerequisites & Setup Details](#prerequisites--setup-details)
-- [Lab Instructions](#lab-instructions)
+- [Why this Matters](#-why-this-matters)
+- [Suggested Discovery Questions](#-suggested-discovery-questions)
+- [Repository Structure](#-repository-structure)
+- [Prerequisites & Setup Details](#-prerequisites--setup-details)
+- [Lab Instructions](#-lab-instructions)
   - [Phase 1: Enable Telemetry](#phase-1-enable-telemetry)
   - [Phase 2: Explore Traces](#phase-2-explore-traces)
   - [Phase 3: Analyze Logs](#phase-3-analyze-logs)
@@ -58,12 +59,14 @@ This lab will guide you through the complete observability stack in Snowflake, h
   - [Phase 5: Copy History](#phase-5-copy-history)
   - [Phase 6: Task History](#phase-6-task-history)
   - [Phase 7: Dynamic Tables](#phase-7-dynamic-tables)
-  - [Phase 8: AI Observability (Optional)](#phase-8-ai-observability-optional)
-- [Placeholder & Naming Conventions](#placeholder--naming-conventions)
-- [Troubleshooting & FAQ](#troubleshooting--faq)
-- [Cleanup & Cost-Stewardship Procedures](#cleanup--cost-stewardship-procedures)
-- [Advanced Concepts](#advanced-concepts)
-- [Links to Resources & Documentation](#links-to-resources--documentation)
+  - [Phase 8: AI Observability](#phase-8-ai-observability-optional)
+- [Grading](#️-grading)
+- [Troubleshooting & FAQ](#️-troubleshooting--faq)
+- [Cleanup & Cost-Stewardship Procedures](#-cleanup--cost-stewardship-procedures)
+- [Advanced Concepts](#-advanced-concepts)
+- [Links to Resources & Documentation](#-links-to-resources--documentation)
+- [Author & Support](#-author--support---check-and-update)
+-[conclusion](#-conclusion)
 
 ---
 
@@ -111,16 +114,9 @@ Provide **5-6 open-ended questions** for customer conversations related to obser
 │   │   └── create_dynamic_table.sql   # Create dynamic table example
 │          
 ├── images/                            # Diagrams and visual assets
-├── lab_instructions/                  # Detailed step-by-step instructions
-│   ├── phase1_setup.md
-│   ├── phase2_traces.md
-│   ├── phase3_logs.md
-│   ├── phase4_query_history.md
-│   ├── phase5_copy_history.md
-│   ├── phase6_task_history.md
-│   └── phase7_dynamic_tables.md
-Grading/                          
-│   ├── HOW_TO_GRADE.md                # Grading instructions
+├── lab_instructions/                  # Detailed step-by-step instructions to execute the scripts
+Config/                          
+│   ├── README.md                # Grading instructions
 │   ├── Doragrading_01_traces.sql
 │   ├── DoraGrading_02_logs.sql
 │   ├── DoraGrading_03_query_history.sql
@@ -129,7 +125,7 @@ Grading/
 │   └── Doragrading_06_dynamic_tables.sql
 99_cleanup/
 │       └── cleanup.sql       # Cleanup script
-└── troubleshooting/                   # Common issues and resolutions
+└── troubleshooting/          # Common issues and resolutions
     └── faq.md
 ```
 ---
@@ -148,6 +144,14 @@ Grading/
   - Access monitoring features in Snowsight
   - Create databases, schemas, warehouses, and other objects
 
+---
+## ✅ lab Instructions
+Detailed instruction on executing the scripts can be found 
+[HERE](lab_instructions/lab_instructions.md) 
+
+---
+## ⚠️ Grading 
+Detailed instruction on Grading instructions can be found [HERE](config/readme.md)
 ---
 
 ## ⚠️ Troubleshooting & FAQ
@@ -179,10 +183,6 @@ Grading/
 For internal support and questions:
 - Slack Channel: `#snowflake-observability`
 - Snowflake Documentation: [docs.snowflake.com](https://docs.snowflake.com)
-
----
-## ⚠️ Grading 
-Detailed instruction on Grading instructions can be found here `grading/HOW_TO_GRADE.md`
 
 ---
 
@@ -252,12 +252,13 @@ Brief callouts to deeper observability topics:
 
 ## 👤 Author & Support --Check and update
 
-**Lab created by:** Snowflake Solutions Engineering – Data Platform Team  
-**Created on:** October 2024 | **Last updated:** October 17, 2025
+**Lab created by:** Aparna Nadimpalli – SE Enablement Senior Manager  
+**Created on:** October 29, 2025 | **Last updated:** November 17, 2025 
 
 💬 **Need Help or Have Feedback?**  
-- Slack Channel: [#snowflake-observability](https://snowflake.slack.com/archives/snowflake-observability)  
-- Email: [support@snowflake.com](mailto:support@snowflake.com)
+- Slack Channel: [#College-of-Platform](#)  
+- Slack DM: [@aparna.nadimpalli](https://snowflake.enterprise.slack.com/team/U03RQG03MJR)  
+- Email: [aparna.nadimpalli@snowflake.com](mailto:aparna.nadimpalli@snowflake.com)
 
 🌟 *We greatly value your feedback to continuously improve our HOL experiences!*
 
