@@ -52,14 +52,14 @@ This lab will guide you through the complete observability stack in Snowflake, h
 - [Repository Structure](#-repository-structure)
 - [Prerequisites & Setup Details](#-prerequisites--setup-details)
 - [Lab Instructions](#-lab-instructions)
-  - [Phase 1: Enable Telemetry](/lab_instructions/lab_instructions.md#phase-1-enable-telemetry)
-  - [Phase 2: Explore Traces](lab_instructions/lab_instructions.md#phase-2-explore-traces)
-  - [Phase 3: Analyze Logs](lab_instructions/lab_instructions.md#phase-3-analyze-logs)
-  - [Phase 4: Query History](lab_instructions/lab_instructions.md#phase-4-query-history)
-  - [Phase 5: Copy History](lab_instructions/lab_instructions.md#phase-5-copy-history)
-  - [Phase 6: Task History](lab_instructions/lab_instructions.md#phase-6-task-history)
-  - [Phase 7: Dynamic Tables](lab_instructions/lab_instructions.md#phase-7-dynamic-tables)
-  - [Phase 8: AI Observability](lab_instructions/lab_instructions.md#phase-8-ai-observability-optional)
+  - [Phase 1: Enable Telemetry](lab_instructions/readme.md#phase-1-enable-telemetry)
+  - [Phase 2: Explore Traces](lab_instructions/readme.md#phase-2-explore-traces)
+  - [Phase 3: Analyze Logs](lab_instructions/readme.md#phase-3-analyze-logs)
+  - [Phase 4: Query History](lab_instructions/readme.md#phase-4-query-history)
+  - [Phase 5: Copy History](lab_instructions/readme.md#phase-5-copy-history)
+  - [Phase 6: Task History](lab_instructions/readme.md#phase-6-task-history)
+  - [Phase 7: Dynamic Tables](lab_instructions/readme.md#phase-7-dynamic-tables)
+  - [Phase 8: AI Observability](lab_instructions/readme.md#phase-8-ai-observability-optional)
 - [Grading](#️-grading)
 - [Troubleshooting & FAQ](#️-troubleshooting--faq)
 - [Cleanup & Cost-Stewardship Procedures](#-cleanup--cost-stewardship-procedures)
@@ -147,7 +147,7 @@ Config/
 ---
 ## ✅ lab Instructions
 Detailed instruction on executing the scripts can be found 
-[HERE](lab_instructions/lab_instructions.md) 
+[HERE](lab_instructions/Readme.md) 
 
 ---
 ## ⚠️ Grading 

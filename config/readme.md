@@ -4,7 +4,7 @@ This is where you can find the validation scripts you need to run to prove you c
 
 Remember to edit your contact information in the SQL Statement for the [SE_GREETER.sql](/config/SE_GREETER.sql)
 
-If all validations return ✅, you have successfully completed the Platform Performance Clustering HOL
+If all validations return ✅, you have successfully completed Data Observability HOL
 
 ## ✅ Grading Steps
 
