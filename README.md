@@ -65,8 +65,8 @@ This lab will guide you through the complete observability stack in Snowflake, h
 - [Cleanup & Cost-Stewardship Procedures](#-cleanup--cost-stewardship-procedures)
 - [Advanced Concepts](#-advanced-concepts)
 - [Links to Resources & Documentation](#-links-to-resources--documentation)
-- [Author & Support](#-author--support---check-and-update)
--[conclusion](#-conclusion)
+- [Author & Support](#-author--support)
+- [conclusion](#-conclusion)
 
 ---
 
@@ -249,7 +249,7 @@ Brief callouts to deeper observability topics:
 
 ---
 
-## 👤 Author & Support --Check and update
+## 👤 Author & Support
 
 **Lab created by:** Aparna Nadimpalli – SE Enablement Senior Manager  
 **Created on:** October 29, 2025 | **Last updated:** November 17, 2025 
