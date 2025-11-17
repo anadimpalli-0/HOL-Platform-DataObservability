@@ -5,13 +5,13 @@
 This lab is designed to be executed in sequential order. Each phase builds upon the previous one:
 
 - [Phase 1:  Enable telemetry collection (foundational setup)](README.md#phase-1-enable-telemetry)
-- [Phase 2: Create and Explore traces](readme.md#phase-2-explore-traces)
-- [Phase 3: Generate and Analyze logs](readme.md#phase-3-analyze-logs)
-- [Phase 4: Run queries and Explore Query History](readme.md#phase-4-query-history)
-- [Phase 5: Set up Data Loading and Monitor Copy History](readme.md#phase-5-copy-history)
-- [Phase 6: Create Tasks and Monitor Task History](readme.md#phase-6-task-history)
-- [Phase 7: Create Dynamic Tables and Monitor Refreshes](readme.md#phase-7-dynamic-tables)
-- [Phase 8: Explore AI Observability](readme.md#phase-8-ai-observability-optional)
+- [Phase 2: Create and Explore traces](README.md#phase-2-explore-traces)
+- [Phase 3: Generate and Analyze logs](README.md#phase-3-analyze-logs)
+- [Phase 4: Run queries and Explore Query History](README.md#phase-4-query-history)
+- [Phase 5: Set up Data Loading and Monitor Copy History](README.md#phase-5-copy-history)
+- [Phase 6: Create Tasks and Monitor Task History](README.md#phase-6-task-history)
+- [Phase 7: Create Dynamic Tables and Monitor Refreshes](README.md#phase-7-dynamic-tables)
+- [Phase 8: Explore AI Observability](README.md#phase-8-ai-observability-optional)
 
 ---
 
