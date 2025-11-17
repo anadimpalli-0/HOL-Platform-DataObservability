@@ -364,7 +364,7 @@ Create and monitor automated tasks and understand task execution patterns.
 
 ### Script to Execute
 
-**File:** `code/06_task_history/create_tasks.sql`
+**File:** [TASK HISTORY.SQL](/code/06_task_history/create_tasks.sql)
 
 ### What This Script Does
 
@@ -428,7 +428,7 @@ Create and monitor dynamic tables to understand automatic materialization and re
 
 ### Script to Execute
 
-**File:** `code/07_dynamic_tables/create_dynamic_table.sql`
+**File:** [DYNAMIC TABLES.SQL](/code/07_dynamic_tables/create_dynamic_table.sql)
 
 ### What This Script Does
 
