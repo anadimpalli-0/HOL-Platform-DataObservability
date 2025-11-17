@@ -11,34 +11,32 @@ After completing each lab phase or the complete lab, run the corresponding DoraG
 
 ### 1. Complete Traces validation:
 
-```sql
-@Doragrading_01_traces.sql
-```
+**Script to Execute:** [DORAGRADING_01_TRACES.sql](/config/Doragrading_01_traces.sql)
 
 ### 2. Complete Logs validation:
-```sql
-@Doragrading_02_logs.sql
-```
+
+**Script to Execute:** [DORAGRADING_02_LOGS.sql](/config/Doragrading_02_logs.sql)
+
 
 ### 3. Complete Query History validation
-```sql
-@Doragrading_03_query_history.sql
-```
+
+**Script to Execute:** [DORAGRADING_03_QUERYHISTORY.sql](/config/Doragrading_03_query_history.sql)
+
 
 ### 4. Complete Copy History validation
-```sql
-@Doragrading_04_copy_history.sql
-```
+
+**Script to Execute:** [DORAGRADING_04_COPYHISTORY.sql](/config/Doragrading_04_copy_history.sql)
+
 
 ### 5. Complete Task History validation
-```sql
-@Doragrading_05_task_history.sql
-```
+
+**Script to Execute:** [DORAGRADING_05_TASKHISTORY.sql](/config/Doragrading_05_task_history.sql)
+
 
 ### 6. Complete Dynamic Tables validation
-```sql
-@Doragrading_06_dynamic_tables.sql
-```
+
+**Script to Execute:** [DORAGRADING_06_DYNAMICTABLES.sql](/config/Doragrading_06_dynamic_tables.sql)
+
 
 ## 🎉 Success!
 
