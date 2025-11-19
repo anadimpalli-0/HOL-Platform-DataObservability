@@ -52,3 +52,24 @@ After completing each lab phase or the complete lab, run the corresponding DoraG
 - Total of 30 validation steps across 6 scripts
 - Use ACCOUNTADMIN role when running validations
 
+# Next Steps
+
+## Cleanup 
+
+After completing the lab, it's important to clean up resources to avoid unnecessary costs.
+
+**Script to Execute:** [CLEANUP.SQL](/code/99_cleanup/cleanup.sql)
+### What the Cleanup Script Does
+
+The cleanup script removes all objects created during this lab:
+- Drops all databases created
+- Drops all warehouses created
+- Drops all tasks (suspends first, then drops)
+- Cleans up all temporary objects
+
+### Manual Verification Steps
+
+After running the cleanup script:
+1. Verify databases are removed: `SHOW DATABASES LIKE 'OBSERVABILITY_HOL%';`
+2. Verify warehouses are removed: `SHOW WAREHOUSES LIKE 'OBSERVABILITY_WH%';`
+3. Verify tasks are removed: `SHOW TASKS LIKE 'TASK%';`
