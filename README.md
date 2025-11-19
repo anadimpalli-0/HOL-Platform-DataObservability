@@ -2,6 +2,8 @@
 **Snowflake's suite of observability capabilities that enable its users to better monitor, troubleshoot, debug and take actions on pipelines, apps, user code and compute utilizations.**
 
 Overview
+
+
 <img src="/images/SnoflakeTrail.png" width="70%">
 
 ---
@@ -23,6 +25,8 @@ This lab will guide you through the complete observability stack in Snowflake, h
 - **Task 6:** Track **Task History** to monitor automated operations, task graphs, and pipeline execution patterns.
 - **Task 7:** Observe **Dynamic Tables** refresh patterns, data freshness, and materialization performance.
 - **Task 8:** Explore **AI Observability** for monitoring AI/ML workloads and Cortex AI functions.
+
+Detailed instruction on executing the Lab can be found [HERE](lab_instructions/README.md#overview-of-execution-order) 
 
 **Objectives**
 
@@ -66,7 +70,7 @@ This lab will guide you through the complete observability stack in Snowflake, h
 - [Advanced Concepts](#-advanced-concepts)
 - [Links to Resources & Documentation](#-links-to-resources--documentation)
 - [Author & Support](#-author--support)
-- [conclusion](#-conclusion)
+- [Conclusion](#-conclusion)
 
 ---
 
@@ -146,45 +150,12 @@ Config/
 
 ---
 ## ✅ lab Instructions
-Detailed instruction on executing the scripts can be found 
-[HERE](lab_instructions/README.md#overview-of-execution-order) 
+Detailed instruction on executing the scripts can be found [HERE](lab_instructions/README.md#overview-of-execution-order) 
 
 ---
 ## ⚠️ Grading 
 
-Detailed instruction on Grading instructions can be found [HERE](config/readme.md)
-
----
-
-## ⚠️ Troubleshooting & FAQ
-
-### Common Issues and Resolutions
-
-**Issue:** No traces appearing after enabling tracing  
-**Cause:** Simple SQL statements don't generate traces  
-**Solution:** Execute stored procedures or UDFs to generate trace data. Traces are only created for handler code execution.
-
-**Issue:** Cannot see telemetry data in event tables  
-**Cause:** Telemetry levels not properly set or insufficient privileges  
-**Solution:** Verify telemetry levels are set at account level using `SHOW PARAMETERS LIKE '%LEVEL' IN ACCOUNT;` and ensure you have `ACCOUNTADMIN` role or appropriate privileges.
-
-**Issue:** Query history shows redacted SQL text  
-**Cause:** Default security setting for failed queries  
-**Solution:** Follow [KB article for redacted queries](https://community.snowflake.com/s/article/SQL-text-is-showing-redacted-for-failed-queries).
-
-**Issue:** Event table not receiving data  
-**Cause:** Active event table not properly configured  
-**Solution:** Verify the active event table using `SHOW PARAMETERS LIKE 'EVENT_TABLE' IN ACCOUNT;` and ensure it points to a valid event table.
-
-**Issue:** Insufficient privileges error  
-**Cause:** Current role lacks required permissions  
-**Solution:** Switch to `ACCOUNTADMIN` role or request necessary privileges from your administrator.
-
-### Internal Support
-
-For internal support and questions:
-- Slack Channel: `#snowflake-observability`
-- Snowflake Documentation: [docs.snowflake.com](https://docs.snowflake.com)
+Detailed instructions on Grading can be found [HERE](config/readme.md)
 
 ---
 
@@ -221,6 +192,38 @@ After running the cleanup script:
 - Event tables consume standard Snowflake storage
 - Telemetry data retention follows standard time travel settings
 - Consider data retention policies for long-term cost management
+
+---
+
+## ⚠️ Troubleshooting & FAQ
+
+### Common Issues and Resolutions
+
+**Issue:** No traces appearing after enabling tracing  
+**Cause:** Simple SQL statements don't generate traces  
+**Solution:** Execute stored procedures or UDFs to generate trace data. Traces are only created for handler code execution.
+
+**Issue:** Cannot see telemetry data in event tables  
+**Cause:** Telemetry levels not properly set or insufficient privileges  
+**Solution:** Verify telemetry levels are set at account level using `SHOW PARAMETERS LIKE '%LEVEL' IN ACCOUNT;` and ensure you have `ACCOUNTADMIN` role or appropriate privileges.
+
+**Issue:** Query history shows redacted SQL text  
+**Cause:** Default security setting for failed queries  
+**Solution:** Follow [KB article for redacted queries](https://community.snowflake.com/s/article/SQL-text-is-showing-redacted-for-failed-queries).
+
+**Issue:** Event table not receiving data  
+**Cause:** Active event table not properly configured  
+**Solution:** Verify the active event table using `SHOW PARAMETERS LIKE 'EVENT_TABLE' IN ACCOUNT;` and ensure it points to a valid event table.
+
+**Issue:** Insufficient privileges error  
+**Cause:** Current role lacks required permissions  
+**Solution:** Switch to `ACCOUNTADMIN` role or request necessary privileges from your administrator.
+
+### Internal Support
+
+For internal support and questions:
+- Slack Channel: `#snowflake-observability`
+- Snowflake Documentation: [docs.snowflake.com](https://docs.snowflake.com)
 
 ---
 

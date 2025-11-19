@@ -493,3 +493,8 @@ Explore AI observability features for monitoring AI/ML workloads and Cortex AI f
 - [AI Observability in Snowflake Cortex](https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability)
 
 ---
+# Next Steps
+## Grading
+Please ensure grading is completed prior to cleanup of objects created during this lab.
+
+Detailed instructions on Grading can be found [HERE](/config/readme.md)
